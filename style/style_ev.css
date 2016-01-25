@@ -1,0 +1,120 @@
+/* Dades preferents dins el sector del Body */
+body {
+	font-family: calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:90%;	
+	margin: 0em;
+}
+
+/* Dades del sector del logotip */ 
+#div_logo{
+	width: auto;	/* Amplada automàtica en funció del pare */ 
+	height: auto;
+	margin-top: 0em;
+	padding-top: 0em;
+	border: 1px solid #848484;
+	background-color: #99cc66;
+}
+
+/* Dades del sector del logotip */ 
+#div_cos{
+	width: auto;	/* Amplada automàtica en funció del pare */ 
+	height: auto;
+	margin-top: 0em;
+	padding-top: 0em;
+	background-color: #C9DCFF;
+}
+
+#div_contingut{
+	width: auto;	/* Amplada automàtica en funció del pare */ 
+	height: auto;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 0em;
+	padding-top: 0em;
+	background-color: #F0F0F0;
+	border: 1px solid #848484;
+	position: relative;
+	/*display: flex;*/
+	align-items: center;
+}
+
+/* Dades del sector del logotip */ 
+#div_footer{
+	width: auto;	/* Amplada automàtica en funció del pare */ 
+	height: auto;
+	margin-top: 0em;
+	padding-top: 0em;
+	background-color: #33363B;
+}
+
+/* ----------- Imatges Botoneres ---------*/
+#Fila1, #Fila2 {
+  width: 850px;
+  position:relative;
+  left: 25%;
+  margin-left: -100px;
+}
+
+.iconesG1{
+	width: 130px;	/* Amplada automàtica en funció del pare */ 
+	height: 119px;
+}
+
+
+
+/* ---------- LOGIN ---------- */
+#login {
+  width: 350px;
+  position:relative;
+  left: 45%;
+  margin-left: -100px;
+}
+
+#login form span {
+  background-color: #21D09B;
+  border-radius: 3px 0px 0px 3px;
+  color:  #113E6B;
+  display: block;
+  float: left;
+  height: 54px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+}
+
+#login form input {
+  height: 50px;
+}
+
+#login form input[type="text"], input[type="password"], #pim  {
+  background-color: #FFFFFF;
+  border-radius: 0px 3px 3px 0px;
+  color: #606468;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 230px;
+}
+
+#login form input[type="submit"] {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #E22626;
+  color: #eee;
+  font-weight: bold;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+  width: 280px;
+}
+
+#login form input[type="submit"]:hover {
+  background-color: #d44179;
+}
+
+#login > p {
+  text-align: center;
+}
+
+#login > p span {
+  padding-left: 5px;
+}
